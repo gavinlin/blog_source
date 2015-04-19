@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+	{% block metadata %}
+		<meta charset="utf-8">
+		<meta name="author" content="{{ AUTHOR_FULLNAME }}">
+	{% endblock %}
+
+	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
+	<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/rhythm.css" />
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/molokai.css" />
+</head>
+
+<body>
+	{% block content %}
+	{% endblock %}
+	<footer id="footer">
+		<address id="about">
+			Copyright &copy; 2014 <a href="{{ SITEURL }}">{{ SITENAME }}</a>
+		</address>
+	</footer>
+    {% include 'analytics.html' %}
+    {% include 'sidebar.html' %}
+</body>
+</html>
