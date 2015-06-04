@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Gavin Lin'
 SITENAME = u"Gavin's Blog"
-SITEURL = ''
+SITEURL = 'gavincode.com'
 
 PATH = 'content'
 
@@ -32,7 +32,7 @@ DEFAULT_PAGINATION = 10
 THEME = 'basic'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part', 'rhythm']
+PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part']
 
 #sitemap
 SITEMAP = {
