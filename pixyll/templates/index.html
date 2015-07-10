@@ -1,0 +1,22 @@
+{% extends "default.html" %}
+
+{% block content %}
+<div class="home">
+
+  <div class="posts">
+	  {% for article in (articles_page.object_list if articles_page else articles) %}
+      <div class="post">
+        <p class="post-meta">{{ article.date|strftime('%-d %b, %Y') }}</p>
+        <a href="{{ SITEURL }}/{{ article.url}}" class="post-link"><h3 class="h2 post-title">{{ article.title }}</h3></a>
+        <p class="post-summary">
+          {% if article.summary %}
+            {{ article.summary }}
+          {% endif %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include 'includes/pagination.html' %}
+</div>
+{% endblock %}

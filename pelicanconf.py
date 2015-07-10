@@ -17,6 +17,8 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+DIRECT_TEMPLATES = (('index', 'search', 'about'))
+
 # Blogroll
 LINKS = (('onelong', 'http://ways2u.com/'),
          ('zita', 'http://blog.csdn.net/ttxgz'),)
@@ -29,10 +31,11 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'basic'
+#THEME = 'basic'
+THEME = 'pixyll'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part']
+PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part', 'tipue_search']
 
 #sitemap
 SITEMAP = {

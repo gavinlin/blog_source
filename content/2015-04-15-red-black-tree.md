@@ -52,7 +52,7 @@ By rule 3  rbh <= 2h <= 2log(n+1)
 
 #### Rotation:
 
-![rb_tree_rotate]({filename}/images/rbtree/rbtree-rotate.jpeg)
+![rb_tree_rotate](/images/rbtree/rbtree-rotate.jpeg)
 
 ``` c
     bool RotateLeft(RB_Node* node) {
@@ -133,7 +133,7 @@ RB-Insert(T, x):
     color[root[T]] <- black
 ```
 
-![rb_tree_insert_case]({filename}/images/rbtree/insert-case.jpeg)
+![rb_tree_insert_case]({{filename}}/images/rbtree/insert-case.jpeg)
 
 Tree-Insert function is a normal BST tree insert function and then we change the x color to RED. Finally, we need to re-balance the tree.
 
@@ -244,7 +244,7 @@ RB-DELETE_FIXUP(T, x)
 
 ```
 
-![rb_tree_insert_case]({filename}/images/rbtree/delete-case.jpeg)
+![rb_tree_insert_case]({{filename}}/images/rbtree/delete-case.jpeg)
 
 ``` c
 bool Delete(KEY key) {
