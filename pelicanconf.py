@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 THEME = 'pixyll'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part', 'tipue_search']
+PLUGINS = ['assets', 'render_math','latex', 'sitemap', 'multi_part', 'tipue_search']
 
 #sitemap
 SITEMAP = {

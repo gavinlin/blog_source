@@ -81,9 +81,18 @@ body {
   margin-left: 1em;
 }
 
+.site-nav li {
+  display: inline;
+}
+
 .site-nav {
   margin: 0;
   padding: 0;
+}
+
+.site-nav form {
+  float: left;
+  margin-right: 1em;
 }
 
 .site-header a:hover,
