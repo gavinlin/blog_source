@@ -3,6 +3,8 @@ Date: 2015-11-26
 Category: android
 Tags: android
 
+[TOC]
+
 ## 自动完成 auto completion
 
 ctrl + space

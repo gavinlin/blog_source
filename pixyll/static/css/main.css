@@ -12,89 +12,105 @@
   MIT License http://opensource.org/licenses/MIT
 
 */
-
+/* line 16, ../sass/main.scss */
 body {
   font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
+/* line 20, ../sass/main.scss */
 html, body {
   height: 100%;
 }
 
+/* line 24, ../sass/main.scss */
 img {
   width: auto;
   max-width: 100%;
 }
 
+/* line 29, ../sass/main.scss */
 .site-wrap {
   min-height: 100%;
   margin-bottom: -120px;
 }
 
+/* line 34, ../sass/main.scss */
 .site-wrap:after {
   content: "";
   display: block;
 }
 
+/* line 39, ../sass/main.scss */
 .footer, .site-wrap:after {
   height: 120px;
 }
 
-.italic {
+/* line 43, ../sass/main.scss */
+.italic, .post-footer {
   font-style: italic;
 }
 
+/* line 47, ../sass/main.scss */
 body {
   font-size: 1.5rem;
-
-          box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
+/* line 55, ../sass/main.scss */
 .gist,
 .gist .highlight .p {
   font-size: .75rem;
 }
 
+/* line 60, ../sass/main.scss */
 .gist .lines {
   width: 100%;
 }
 
+/* line 64, ../sass/main.scss */
 .site-header a {
   color: #333;
   font-weight: 300;
 }
 
+/* line 69, ../sass/main.scss */
 .site-header nav a {
   font-size: 1rem;
   color: #666;
 }
 
+/* line 74, ../sass/main.scss */
 .site-header nav a:hover {
   color: #444;
   opacity: 1;
   border-bottom: 2px solid #444;
 }
 
+/* line 80, ../sass/main.scss */
 .site-nav a + a {
   margin-left: 1em;
 }
 
+/* line 84, ../sass/main.scss */
 .site-nav li {
   display: inline;
 }
 
+/* line 88, ../sass/main.scss */
 .site-nav {
   margin: 0;
   padding: 0;
 }
 
+/* line 93, ../sass/main.scss */
 .site-nav form {
   float: left;
   margin-right: 1em;
 }
 
+/* line 98, ../sass/main.scss */
 .site-header a:hover,
 .posts .post a:hover .post-meta,
 .posts .post a:hover .post-title,
@@ -106,87 +122,89 @@ body {
   Table styles copied from Bootstrap
   Copyright (c) 2013 Twitter, Inc
 */
-
+/* line 110, ../sass/main.scss */
 table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1.5;
   font-size: 1.125rem;
-  // Cells
-  > thead,
-  > tbody,
-  > tfoot {
-    > tr {
-      > th,
-      > td {
-        padding: 12px;
-        line-height: 1.2;
-        vertical-align: top;
-        border-top: 1px solid #333;
-      }
-    }
-  }
-  // Bottom align for column headings
-  > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #333;
-  }
-  // Remove top border from thead by default
-  > caption + thead,
-  > colgroup + thead,
-  > thead:first-child {
-    > tr:first-child {
-      > th,
-      > td {
-        border-top: 0;
-      }
-    }
-  }
-  // Account for multiple tbody instances
-  > tbody + tbody {
-    border-top: 2px solid #333;
-  }
+}
+/* line 120, ../sass/main.scss */
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+  padding: 12px;
+  line-height: 1.2;
+  vertical-align: top;
+  border-top: 1px solid #333;
+}
+/* line 130, ../sass/main.scss */
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #333;
+}
+/* line 139, ../sass/main.scss */
+table > caption + thead > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > th,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+/* line 146, ../sass/main.scss */
+table > tbody + tbody {
+  border-top: 2px solid #333;
 }
 
+/* line 151, ../sass/main.scss */
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
 
+/* line 155, ../sass/main.scss */
 .posts {
   margin: 0;
 }
 
+/* line 159, ../sass/main.scss */
 .posts .post {
   margin-bottom: 0.75em;
   padding-bottom: .375em;
   border-bottom: thin solid #f3f3f3;
 }
 
+/* line 165, ../sass/main.scss */
 .posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;
   padding-bottom: 0;
 }
 
+/* line 171, ../sass/main.scss */
 .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
   color: #333;
 }
 
+/* line 177, ../sass/main.scss */
 .post-footer {
-  @extend .italic;
-
   margin-top: .75rem;
   text-align: center;
 }
 
+/* line 184, ../sass/main.scss */
 .post-footer .avatar {
   margin: 2rem 0;
   width: 100px;
   border-radius: 50%;
 }
 
+/* line 190, ../sass/main.scss */
 .pagination,
 .button {
   font-size: 1rem;
@@ -195,6 +213,7 @@ table {
   text-align: center;
 }
 
+/* line 198, ../sass/main.scss */
 .pagination a, .pagination .disabled {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -206,23 +225,28 @@ table {
   padding: 1em 1.5em;
 }
 
+/* line 209, ../sass/main.scss */
 .pagination .disabled {
   opacity: 0.5;
 }
 
+/* line 213, ../sass/main.scss */
 .pagination a:hover, .pagination a:focus {
   background: white;
   color: #477dca;
 }
 
+/* line 218, ../sass/main.scss */
 .pagination a:active {
   background: #f7f7f7;
 }
 
+/* line 222, ../sass/main.scss */
 .wrap .measure {
   margin: 0 auto;
 }
 
+/* line 226, ../sass/main.scss */
 .meta,
 .post-meta {
   width: auto;
@@ -234,17 +258,20 @@ table {
   font-style: italic;
 }
 
+/* line 237, ../sass/main.scss */
 .pagination .button {
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
+/* line 243, ../sass/main.scss */
 .button-disabled {
   opacity: 0.55;
   background-color: #999;
 }
 
+/* line 248, ../sass/main.scss */
 .button-disabled:hover,
 .button-disabled:active,
 .button-disabled:focus {
@@ -252,35 +279,42 @@ table {
   background-color: #999;
 }
 
+/* line 255, ../sass/main.scss */
 form {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
 
+/* line 261, ../sass/main.scss */
 textarea.input {
   height: 8em;
 }
 
+/* line 265, ../sass/main.scss */
 p {
   font-weight: 300;
   line-height: 1.5;
   color: #333;
 }
 
+/* line 271, ../sass/main.scss */
 abbr {
   border-bottom: 1px black dotted;
   cursor: help;
 }
 
+/* line 276, ../sass/main.scss */
 pre, code {
-  font-family: Menlo, Monaco, "Courier New", monospace
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
+/* line 280, ../sass/main.scss */
 code {
   color: #7a7a7a;
 }
 
+/* line 284, ../sass/main.scss */
 pre {
   padding: 1.125em;
   font-size: 1.125rem;
@@ -289,17 +323,20 @@ pre {
   margin-bottom: 0.88em;
 }
 
+/* line 292, ../sass/main.scss */
 .highlight .p {
   font-size: 1.125rem;
   line-height: 1;
 }
 
+/* line 297, ../sass/main.scss */
 blockquote {
   padding: 1.33em;
   font-style: italic;
   border-left: 5px solid #7a7a7a;
 }
 
+/* line 303, ../sass/main.scss */
 blockquote footer {
   font-size: .85rem;
   font-style: normal;
@@ -308,6 +345,7 @@ blockquote footer {
   border-color: transparent;
 }
 
+/* line 311, ../sass/main.scss */
 h1,
 .h1,
 h2,
@@ -326,29 +364,38 @@ h6,
   margin: 1em 0 0.5em;
 }
 
+/* line 329, ../sass/main.scss */
 .social-icons {
-    padding: 0.5em 0 0 0;
-    font-size: 1.25rem;
-    width: 100%;
+  padding: 0.5em 0 0 0;
+  font-size: 1.25rem;
+  width: 100%;
 }
+
+/* line 334, ../sass/main.scss */
 .social-icons a.fa {
-    padding: 0.2em;
-    opacity: 0.8;
-    cursor: pointer;
+  padding: 0.2em;
+  opacity: 0.8;
+  cursor: pointer;
 }
+
+/* line 339, ../sass/main.scss */
 .social-icons a.fa:hover {
-    opacity: 1;
+  opacity: 1;
 }
+
+/* line 342, ../sass/main.scss */
 .social-icons iframe[title=Flattr] {
-    position: relative;
-    top: 0.1em;
+  position: relative;
+  top: 0.1em;
 }
 
 @media screen and (min-width: 48em) {
+  /* line 348, ../sass/main.scss */
   .site-header .site-title {
     float: left;
   }
 
+  /* line 352, ../sass/main.scss */
   .meta,
   .post-meta {
     margin: 0;
@@ -356,26 +403,31 @@ h6,
     font-size: 1.25rem;
   }
 
+  /* line 359, ../sass/main.scss */
   .h1,
   h1 {
     font-size: 3.250rem;
   }
 
+  /* line 364, ../sass/main.scss */
   .h2,
   h2 {
     font-size: 2.298rem;
   }
 
+  /* line 369, ../sass/main.scss */
   .h3,
   h3 {
     font-size: 1.625rem;
   }
 
+  /* line 374, ../sass/main.scss */
   .h4,
   h4 {
     font-size: 1.150rem;
   }
 
+  /* line 379, ../sass/main.scss */
   .p,
   p,
   li {
@@ -383,66 +435,78 @@ h6,
     line-height: 1.8;
   }
 
+  /* line 386, ../sass/main.scss */
   .small {
     font-size: 1rem;
   }
 
+  /* line 390, ../sass/main.scss */
   table {
     font-size: 1.25rem;
   }
 
+  /* line 394, ../sass/main.scss */
   .post-link .post-title {
     margin-top: 0.5em;
   }
 
+  /* line 398, ../sass/main.scss */
   .posts .post {
     margin-bottom: 1.333em;
     padding-bottom: 0.666em;
     border-bottom: thin solid #f3f3f3;
   }
 
+  /* line 404, ../sass/main.scss */
   .posts .post:last-child {
     border-bottom: none;
     margin-bottom: .333em;
     padding-bottom: 0;
   }
 }
-
 @media screen and (max-width: 48em) {
+  /* line 412, ../sass/main.scss */
   blockquote {
     margin-left: 1rem;
     margin-right: 0;
     padding: 0.5em;
   }
 
+  /* line 418, ../sass/main.scss */
   .h1,
   h1 {
     font-size: 2.827rem;
   }
 
+  /* line 423, ../sass/main.scss */
   .h2,
   h2 {
     font-size: 1.999rem;
   }
 
+  /* line 428, ../sass/main.scss */
   .h3,
   h3 {
     font-size: 1.413rem;
   }
 
+  /* line 433, ../sass/main.scss */
   .h4,
   h4 {
     font-size: 1rem;
   }
 
+  /* line 438, ../sass/main.scss */
   .site-header {
     text-align: center;
   }
 
+  /* line 442, ../sass/main.scss */
   .site-header .site-title {
     float: center;
   }
 
+  /* line 446, ../sass/main.scss */
   .site-header .site-nav {
     width: 100%;
     float: left;
@@ -451,67 +515,78 @@ h6,
     margin-bottom: 1.333em;
   }
 
+  /* line 454, ../sass/main.scss */
   .social-icons .left, .social-icons .right {
     text-align: center;
     float: none;
   }
 }
-
 @media screen and (min-width: 64em) {
+  /* line 461, ../sass/main.scss */
   .h1,
   h1 {
     font-size: 4.498rem;
   }
 
+  /* line 466, ../sass/main.scss */
   .h2,
   h2 {
     font-size: 3.18rem;
   }
 
+  /* line 471, ../sass/main.scss */
   .h3,
   h3 {
     font-size: 2.249rem;
   }
 
+  /* line 476, ../sass/main.scss */
   .h4,
   h4 {
     font-size: 1.591rem;
   }
 
+  /* line 481, ../sass/main.scss */
   .posts .post-meta {
     padding-bottom: .2em;
   }
 
+  /* line 485, ../sass/main.scss */
   .post-link .post-title {
     margin-top: .125em;
   }
 
+  /* line 489, ../sass/main.scss */
   .posts .post {
     margin-bottom: 2.666em;
     padding-bottom: 1.333em;
     border-bottom: thin solid #f3f3f3;
   }
 
+  /* line 495, ../sass/main.scss */
   .posts .post:last-child {
     border-bottom: none;
     margin-bottom: .666em;
     padding-bottom: 0;
   }
 }
-
+/* line 502, ../sass/main.scss */
 .share-page {
-  font-size:  0.65em;
+  font-size: 0.65em;
   padding: 2em 0 0 0;
 }
 
+/* line 507, ../sass/main.scss */
 .share-page div {
   font-size: 1.3em;
 }
 
+/* line 511, ../sass/main.scss */
 footer {
   border-top: thin solid #f3f3f3;
 }
 
+/* line 515, ../sass/main.scss */
 footer,
 footer .wrap {
   color: #7a7a7a;
@@ -521,12 +596,11 @@ footer .wrap {
   clear: both;
 }
 
+/* line 524, ../sass/main.scss */
 footer:after {
   content: "";
   display: block;
 }
-
-@charset "UTF-8";
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -534,7 +608,7 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2014 Daniel Eden
 */
-
+/* line 538, ../sass/main.scss */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -542,11 +616,13 @@ Copyright (c) 2014 Daniel Eden
   animation-fill-mode: both;
 }
 
+/* line 545, ../sass/main.scss */
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
+/* line 550, ../sass/main.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -558,33 +634,28 @@ Copyright (c) 2014 Daniel Eden
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-
     -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
-        -ms-transform: translateY(-20px) translate3d(0, 0, 0);
-            transform: translateY(-20px) translate3d(0, 0, 0);
+    -ms-transform: translateY(-20px) translate3d(0, 0, 0);
+    transform: translateY(-20px) translate3d(0, 0, 0);
   }
-
   100% {
     opacity: 1;
-
     -webkit-transform: translateY(0) translate3d(0, 0, 0);
-        -ms-transform: translateY(0) translate3d(0, 0, 0);
-            transform: translateY(0) translate3d(0, 0, 0);
+    -ms-transform: translateY(0) translate3d(0, 0, 0);
+    transform: translateY(0) translate3d(0, 0, 0);
   }
 }
-
+/* line 587, ../sass/main.scss */
 .fade-in-down {
   -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }

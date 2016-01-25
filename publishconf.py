@@ -20,5 +20,4 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = u'lingavincom'
 GOOGLE_ANALYTICS = 'UA-38998659-3'

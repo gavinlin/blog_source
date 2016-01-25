@@ -32,10 +32,10 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 #THEME = 'basic'
-THEME = 'pixyll'
+THEME = "/Users/gavinlin/workspace/github/blog_source/pixyll"
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'render_math','latex', 'sitemap', 'multi_part', 'tipue_search']
+PLUGINS = ['assets', 'render_math', 'sitemap', 'multi_part', 'tipue_search', 'series', 'pelican-toc']
 
 #sitemap
 SITEMAP = {
@@ -56,3 +56,5 @@ STATIC_PATHS = [
     u'CNAME',
     u'images',
     ]
+
+DISQUS_SITENAME = u'gavincodecom'

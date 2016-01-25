@@ -6,11 +6,9 @@
     <meta name="description" content="{% block description %}Gavin's Blog{% endblock %}">
     <meta name="author" content="{{ AUTHOR }}">
 
-    <!-- Custom CSS -->
-    {% assets filters="scss,cssmin", output="packed.css", "css/basscss.scss", "css/main.scss", "css/solarized-light.scss", "tipuesearch/tipuesearch.css" %}
-      <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    {% assets filters="cssmin", output="css/style.min.css", "css/basscss.css", "css/main.css", "css/solarized-light.css", "tipuesearch/tipuesearch.css" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
-
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
