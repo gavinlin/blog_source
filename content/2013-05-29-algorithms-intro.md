@@ -1,6 +1,6 @@
 Title: 算法-又一坑
 Date: 2013-05-29
-Category: algorithms
+Category: algorithm
 
 对于一个软件工程师，算法重要吗？如果想混日子，应该不重要。
 

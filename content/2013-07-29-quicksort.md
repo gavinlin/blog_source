@@ -1,6 +1,6 @@
 Title: 快速排序
 Date: 2013-07-29 11:10
-Category: algorithms
+Category: algorithm
 Tags: c, algorithm
 
 在比较算法中，快速排序可以算是明星算法了，因为他的常系数小，使得其总体性能比其他比较算法优秀。其性能基本上可以达到$\theta (n\lg n)$ ，但在某些极端情况其时间复杂度却是$\theta ({n}^{2})$。

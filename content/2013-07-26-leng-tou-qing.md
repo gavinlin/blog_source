@@ -1,6 +1,6 @@
 Title: 愣头青
 Date: 2013-07-26 
-Category: whoami
+Category: life
 
 标题的三个字，我一直打不出来，真是个没有自知之明的家伙。使用上十八般武艺，才得到 `lèng` `tóu` `qīng` 三个拼音和一个解释。
 

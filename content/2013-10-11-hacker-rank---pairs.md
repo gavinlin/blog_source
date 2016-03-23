@@ -1,6 +1,6 @@
 Title: Hacker Rank: Pairs
 Date: 2013-10-11
-Category: algorithms
+Category: algorithm
 Tags: c
 
 刚注册上 Hacker Rank ，出现了一条练手的题目，竟然不是著名的 Hello World ，而是这题 Pairs 。

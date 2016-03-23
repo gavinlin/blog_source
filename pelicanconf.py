@@ -17,7 +17,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-DIRECT_TEMPLATES = (('index', 'search', 'about'))
+DIRECT_TEMPLATES = (('index'))
 
 # Blogroll
 LINKS = (('onelong', 'http://ways2u.com/'),
@@ -32,10 +32,11 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 #THEME = 'basic'
-THEME = "/Users/gavinlin/workspace/github/blog_source/pixyll"
+#THEME = "/Users/gavinlin/workspace/github/blog_source/pixyll"
+THEME = "pelican-material"
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'render_math', 'sitemap', 'multi_part', 'tipue_search', 'series', 'pelican-toc']
+PLUGINS = ['render_math', 'sitemap', 'multi_part',  'series']
 
 #sitemap
 SITEMAP = {
@@ -58,3 +59,12 @@ STATIC_PATHS = [
     ]
 
 DISQUS_SITENAME = u'gavincodecom'
+
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight)', 'extra']
+
+from functools import partial
+JINJA_FILTERS = {
+    'sort_by_article_count': partial(
+        sorted,
+        key=lambda tags: len(tags[1]),
+        reverse=True)} # reversed for descending order

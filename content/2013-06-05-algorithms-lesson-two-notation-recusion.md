@@ -1,6 +1,6 @@
 Title: 算法第二课笔记
 Date: 2013-06-05
-Category: algorithms
+Category: algorithm
 
 ##大O符号
 

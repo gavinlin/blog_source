@@ -1,6 +1,6 @@
 Title: HackerRank: Insertion Sort Part1
 Date: 2013-10-15
-Category: algorithms
+Category: algorithm
 Tags: [c]
 
 基础水题，插入排序第一部分

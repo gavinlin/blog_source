@@ -1,6 +1,6 @@
 Title: HackerRank: Insertion Sort Part2
 Date: 2013-10-15
-Category: algorithms
+Category: algorithm
 Tags: [c]
 
 第二部分要求我们使用插入排序来排列数组，并把结果打印出来。
