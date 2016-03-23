@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{SITENAME}} - Articles tag {{tag}}{% endblock %}
+
+{% block content %}
+<h2 class="orange-text">Articles tag "{{ tag }}"</h2>
+<div class="row">
+        {% for article in articles %}
+        {% include "article_detail.html" %}
+        {% endfor %}
+</div>
+{% endblock %}

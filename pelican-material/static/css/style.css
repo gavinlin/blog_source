@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+blockquote {
+    border-color: #ff9800;
+}
+
+article {
+    text-align: justify;
+}
+
+.article-details {
+    margin-top: 20px;
+}
+
+body {
+    font-size: 1.1rem
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+article ul li {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+.figure {
+    text-align: center;
+}
+
+.caption {
+    font-size: smaller;
+    margin-top: 0;
+}
+
+.highlight, .highlighttable {
+    line-height: 1.1em;
+}
+
+article h1, arlticle h2, article h3, article h4 {
+    text-align: left;
+}
+
+.title-color {
+    color: #26a69a
+}
+
+nav .brand-logo {
+    color: #000
+}
+
+nav ul a {
+    color: #000
+}
+
+pre {
+    padding: .75rem;
+}
