@@ -77,3 +77,21 @@ nav ul a {
 pre {
     padding: .75rem;
 }
+
+@media screen and (max-width: 993px) {
+    .container {
+        width: 85%
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 65%; 
+    }    
+}
+
+
+.container .row {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
