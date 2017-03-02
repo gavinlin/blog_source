@@ -95,3 +95,7 @@ pre {
     margin-left: 0rem;
     margin-right: 0rem;
 }
+
+img {
+    max-width: 100%;
+}
