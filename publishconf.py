@@ -20,4 +20,4 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-GOOGLE_ANALYTICS = 'UA-38998659-3'
+GOOGLE_ANALYTICS = "UA-38998659-3"
